@@ -82,8 +82,8 @@ def set_system_volume(volume_level):
 
 # Função principal para configurar e iniciar a reprodução
 def main():
-    video_path = 'C:/Users/liman/OneDrive/Documentos/scripts/FNaF 4 - Nightmare Freddy Jumpscare.mp4'
-    audio_path = 'C:/Users/liman/OneDrive/Documentos/scripts/FNaF 4 - Nightmare Freddy Jumpscare.mp3'
+    video_path = 'video.mp4'
+    audio_path = 'audio.mp3'
 
     logging.info("Iniciando o script de jumpscare")
     set_system_volume(1.0)
